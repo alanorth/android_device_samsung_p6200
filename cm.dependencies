@@ -5,7 +5,7 @@
     },
     {
         "repository": "android_kernel_samsung_smdk4210",
-        "target_path": "kernel/samsung/smdk4210"
+        "target_path": "kernel/samsung/smdk4210",
         "branch": "jellybean"
     },
     {
