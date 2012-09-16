@@ -16,7 +16,7 @@
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, device/samsung/smdk4210-tab/smdk4210-tab_base.mk)
+$(call inherit-product, device/samsung/smdk4210-tab/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/smdk4210-tab/smdk4210-tab_base.mk)
 $(call inherit-product-if-exists, vendor/samsung/p6200/p6200_base.mk)
 
